@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="AmountType_BeforeTaxes" xml:space="preserve">
+    <value>Before GST/HST/QST</value>
+  </data>
+  <data name="AmountType_TaxIncluded" xml:space="preserve">
+    <value>Tax included</value>
+  </data>
+  <data name="Amount_Instructions" xml:space="preserve">
+    <value>Enter the expense amount tax included or before GST, HST, QST (allowances are calculated on a tax included basis)</value>
+  </data>
+  <data name="BusinessSize" xml:space="preserve">
+    <value>Business size</value>
+  </data>
+  <data name="BusinessSize_Instructions" xml:space="preserve">
+    <value>Select whether your organization is a large business or a small⁄medium business for GST⁄HST and QST purposes</value>
+  </data>
+  <data name="BusinessSize_Large" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="BusinessSize_SmallMedium" xml:space="preserve">
+    <value>Small/medium</value>
+  </data>
+  <data name="ClickImageToEnlarge" xml:space="preserve">
+    <value>Click image to enlarge</value>
+  </data>
+  <data name="Date_Instructions" xml:space="preserve">
+    <value>Calculation will use today’s Canadian indirect tax rate</value>
+  </data>
+  <data name="ExciseTaxAct" xml:space="preserve">
+    <value>Excise tax act</value>
+  </data>
+  <data name="ExpenseType" xml:space="preserve">
+    <value>Expense Type</value>
+  </data>
+  <data name="ExpenseType_Allowance" xml:space="preserve">
+    <value>Allowance</value>
+  </data>
+  <data name="ExpenseType_GasForCars" xml:space="preserve">
+    <value>Gas for cars</value>
+  </data>
+  <data name="ExpenseType_Instructions" xml:space="preserve">
+    <value>Select the expense type that the employee incurred in the course of commercial activities</value>
+  </data>
+  <data name="ExpenseType_Lodging" xml:space="preserve">
+    <value>Lodging</value>
+  </data>
+  <data name="GST_HST_Paid" xml:space="preserve">
+    <value>GST / HST Paid</value>
+  </data>
+  <data name="GST_HST_Paid_Instructions" xml:space="preserve">
+    <value>Calculates the GST / HST paid (to validate with receipt), or deemed paid for allowances, on the expense</value>
+  </data>
+  <data name="ITC" xml:space="preserve">
+    <value>ITC</value>
+  </data>
+  <data name="ITC_Instructions" xml:space="preserve">
+    <value>ITC is the input tax credit under the</value>
+  </data>
+  <data name="ITR" xml:space="preserve">
+    <value>ITR</value>
+  </data>
+  <data name="ITR_Instructions" xml:space="preserve">
+    <value>ITR is the input tax refund under the</value>
+  </data>
+  <data name="Jurisdiction" xml:space="preserve">
+    <value>Jurisdiction</value>
+  </data>
+  <data name="Jurisdiction_Instructions" xml:space="preserve">
+    <value>Select the Canadian province or territory where the expense was incurred</value>
+  </data>
+  <data name="Net" xml:space="preserve">
+    <value>Net</value>
+  </data>
+  <data name="Net_Instructions" xml:space="preserve">
+    <value>Refers to the net expense which equals the Total - ITC - ITR + RITC</value>
+  </data>
+  <data name="PageMainTitle" xml:space="preserve">
+    <value>Calculate net recoverable GST ⁄ HST &amp; QST for small ⁄ medium &amp; large businesses on travel expenses incurred by employees.</value>
+  </data>
+  <data name="QST_Paid" xml:space="preserve">
+    <value>QST Paid</value>
+  </data>
+  <data name="QST_Paid_Instructions" xml:space="preserve">
+    <value>Calculates the QST paid (to validate with receipt), or deemed paid for allowances, on the expense</value>
+  </data>
+  <data name="QuebecSalesTaxAct" xml:space="preserve">
+    <value>Quebec sales tax act</value>
+  </data>
+  <data name="RITC" xml:space="preserve">
+    <value>RITC</value>
+  </data>
+  <data name="RITC_Instructions" xml:space="preserve">
+    <value>RITC is the Recapture of input tax credit under the</value>
+  </data>
+  <data name="SampleReportTitle" xml:space="preserve">
+    <value>Sample Report from Advataxes</value>
+  </data>
+  <data name="TaxCalculator_Assumptions" xml:space="preserve">
+    <value>The tax calculator on travel expenses is done under the following assumptions; the person is a GST/HST and a QST registrant. The ratios of commercial activities of the person are 100%. The large business calculation automates the calculation of the recapture of input tax credits (RITC) in Ontario and PEI and restricted input tax refund in Quebec on meals and allowances under paragraph 236(1) of the &lt;i&gt;Excise Tax Act&lt;/i&gt; and section 457.1 of the Quebec Sales Tax Act and gas for cars as motive fuel other than diesel fuel for used in a vehicle of less than 3000 kg that is required to be licensed on a public highway. The tax calculator on travel expenses applies the exact method for calculating input tax credits and input tax refunds. The tax calculator is not designed for registrants using the quick method or similar one where no tracking of taxes on purchases is necessary. The tax calculator does not integrate the provisions of the &lt;i&gt;Indian Act&lt;/i&gt; or the provisions of the &lt;i&gt;First Nation Goods and Services Tax Act&lt;/i&gt;. The tax calculator should not be a substitute to obtaining a consultation on Canadian tax matters. It is actually advisable that users seek technical expertise to understand tax concepts that the tax calculator is automating.</value>
+  </data>
+  <data name="TaxCalculator_Presentation" xml:space="preserve">
+    <value>Advataxes is an employee expense software that automates the GST ⁄ HST &amp; QST paid, GST ⁄ HST &amp; QST recoverable and the recapture of input tax credits in Ontario and PEI, in the same manor as the tax calculator. Selecting an expense type, a jurisdiction and a date is the preferred system instead of the traditional one requiring all employees to select from a list of tax codes. This is a more efficient responsibility allocation structure. In the example below, you have a travel expense report for an employee of a large business. The employee selected a project number, which is linked to an account segment, and has identified which expense has been directly paid by the employer to the credit card company. The current expense report displays the recoverable taxes based on the exact method.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Total_Instructions" xml:space="preserve">
+    <value>Total expense amount submitted by the employee</value>
+  </data>
+</root>

@@ -1,0 +1,53 @@
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\bin\Debug\AdvataxesResources.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\bin\Debug\AdvataxesResources.pdb
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\bin\Debug\AdvataxesResources.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\bin\Debug\fr\AdvataxesResources.resources.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.Common.resources
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.Expenses.resources
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.Reports.resources
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.TaxCalculator.resources
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.Common.fr.resources
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.Expenses.fr.resources
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.Reports.fr.resources
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.TaxCalculator.fr.resources
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.vbproj.GenerateResource.Cache
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\fr\AdvataxesResources.resources.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.pdb
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\AdvataxesResources\obj\Debug\AdvataxesResources.vbprojResolveAssemblyReference.cache
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\bin\Debug\AdvataxesResources.dll
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\bin\Debug\AdvataxesResources.pdb
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\bin\Debug\AdvataxesResources.xml
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\bin\Debug\fr\AdvataxesResources.resources.dll
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Common.resources
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Expenses.resources
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Reports.resources
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.TaxCalculator.resources
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Common.fr.resources
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Expenses.fr.resources
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Reports.fr.resources
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.TaxCalculator.fr.resources
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.vbproj.GenerateResource.Cache
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\fr\AdvataxesResources.resources.dll
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.dll
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.xml
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.pdb
+F:\Exalted\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.vbprojResolveAssemblyReference.cache
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\bin\Debug\AdvataxesResources.dll
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\bin\Debug\AdvataxesResources.pdb
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\bin\Debug\AdvataxesResources.xml
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\bin\Debug\fr\AdvataxesResources.resources.dll
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Common.resources
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Expenses.resources
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Reports.resources
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.TaxCalculator.resources
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Common.fr.resources
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Expenses.fr.resources
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.Reports.fr.resources
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.TaxCalculator.fr.resources
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.vbproj.GenerateResource.Cache
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\fr\AdvataxesResources.resources.dll
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.dll
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.xml
+C:\Users\Haseeb Ahmed\Desktop\Advataxes New\Advataxes\AdvataxesResources\obj\Debug\AdvataxesResources.pdb

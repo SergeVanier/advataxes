@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+    <siteMapNode url="~/Account/Reports.aspx" title="My Expenses"  description="" resourceKey="52" >
+      <siteMapNode url="~/Account/Reports.aspx?submitted=1" title="Submitted Expenses"  description="" resourceKey="53" />
+      <siteMapNode url="~/Account/MyReceipts.aspx" title="My Receipts"  description="" resourceKey="57" />      
+      <siteMapNode url="~/Account/ViewReports.aspx" title="Reports"  description="" resourceKey="71" />
+      <siteMapNode url="~/Admin/Admin.aspx" title="Admin"  description="" resourceKey="55" />
+      <siteMapNode url="~/Account/Tags.aspx" title="Tags"  description="" resourceKey="423" ></siteMapNode >
+      <siteMapNode url="~/Account/BulletinBoard.aspx" title="Bulletin Board"  description="" resourceKey="56" ></siteMapNode >
+        
+      <!--<siteMapNode url="~/Account/guidelines.aspx" title="Guidelines"  description="" resourceKey="57" />-->
+    
+    </siteMapNode >
+  </siteMap>

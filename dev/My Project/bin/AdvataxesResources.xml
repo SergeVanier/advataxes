@@ -1,0 +1,304 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AdvataxesResources
+</name>
+</assembly>
+<members>
+<member name="T:AdvataxesResources.My.Resources.Common">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Common.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Common.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Common.DateLabel">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Common.GenericUnhandledError">
+<summary>
+  Looks up a localized string similar to There was an error. Refresh your browser or re-login and try again. Contact your administrator if you require help..
+</summary>
+</member>
+<member name="T:AdvataxesResources.My.Resources.Expenses">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Expenses.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Expenses.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Expenses.ConfirmExpenseSave">
+<summary>
+  Looks up a localized string similar to Expense was saved.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Expenses.GenericErrorFileUpload">
+<summary>
+  Looks up a localized string similar to There was an error while uploading your file..
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Expenses.GSTPaidHigherThanAmount">
+<summary>
+  Looks up a localized string similar to The GST amount entered is higher than the total for this expense..
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Expenses.HSTPaidHigherThanAmount">
+<summary>
+  Looks up a localized string similar to The HST amount entered is higher than the total for this expense..
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Expenses.QSTPaidHigherThanAmount">
+<summary>
+  Looks up a localized string similar to The QST amount entered is higher than the total for this expense..
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Expenses.TaxesPaidHigherThanAmount">
+<summary>
+  Looks up a localized string similar to The total of the taxes entered are higher than the total for this expense..
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Expenses.UploadedFileIsTooLarge">
+<summary>
+  Looks up a localized string similar to File was not uploaded. File cannot be larger than 5MB.
+</summary>
+</member>
+<member name="T:AdvataxesResources.My.Resources.Reports">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Reports.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.Reports.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:AdvataxesResources.My.Resources.TaxCalculator">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.Amount">
+<summary>
+  Looks up a localized string similar to Amount.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.Amount_Instructions">
+<summary>
+  Looks up a localized string similar to Enter the expense amount tax included or before GST, HST, QST (allowances are calculated on a tax included basis).
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.AmountType_BeforeTaxes">
+<summary>
+  Looks up a localized string similar to Before GST/HST/QST.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.AmountType_TaxIncluded">
+<summary>
+  Looks up a localized string similar to Tax included.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.BusinessSize">
+<summary>
+  Looks up a localized string similar to Business size.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.BusinessSize_Instructions">
+<summary>
+  Looks up a localized string similar to Select whether your organization is a large business or a small⁄medium business for GST⁄HST and QST purposes.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.BusinessSize_Large">
+<summary>
+  Looks up a localized string similar to Large.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.BusinessSize_SmallMedium">
+<summary>
+  Looks up a localized string similar to Small/medium.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ClickImageToEnlarge">
+<summary>
+  Looks up a localized string similar to Click image to enlarge.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.Date_Instructions">
+<summary>
+  Looks up a localized string similar to Calculation will use today’s Canadian indirect tax rate.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ExciseTaxAct">
+<summary>
+  Looks up a localized string similar to Excise tax act.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ExpenseType">
+<summary>
+  Looks up a localized string similar to Expense Type.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ExpenseType_Allowance">
+<summary>
+  Looks up a localized string similar to Allowance.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ExpenseType_GasForCars">
+<summary>
+  Looks up a localized string similar to Gas for cars.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ExpenseType_Instructions">
+<summary>
+  Looks up a localized string similar to Select the expense type that the employee incurred in the course of commercial activities.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ExpenseType_Lodging">
+<summary>
+  Looks up a localized string similar to Lodging.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.GST_HST_Paid">
+<summary>
+  Looks up a localized string similar to GST / HST Paid.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.GST_HST_Paid_Instructions">
+<summary>
+  Looks up a localized string similar to Calculates the GST / HST paid (to validate with receipt), or deemed paid for allowances, on the expense.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ITC">
+<summary>
+  Looks up a localized string similar to ITC.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ITC_Instructions">
+<summary>
+  Looks up a localized string similar to ITC is the input tax credit under the.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ITR">
+<summary>
+  Looks up a localized string similar to ITR.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.ITR_Instructions">
+<summary>
+  Looks up a localized string similar to ITR is the input tax refund under the.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.Jurisdiction">
+<summary>
+  Looks up a localized string similar to Jurisdiction.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.Jurisdiction_Instructions">
+<summary>
+  Looks up a localized string similar to Select the Canadian province or territory where the expense was incurred.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.Net">
+<summary>
+  Looks up a localized string similar to Net.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.Net_Instructions">
+<summary>
+  Looks up a localized string similar to Refers to the net expense which equals the Total - ITC - ITR + RITC.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.PageMainTitle">
+<summary>
+  Looks up a localized string similar to Calculate net recoverable GST ⁄ HST &amp; QST for small ⁄ medium &amp; large businesses on travel expenses incurred by employees..
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.QST_Paid">
+<summary>
+  Looks up a localized string similar to QST Paid.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.QST_Paid_Instructions">
+<summary>
+  Looks up a localized string similar to Calculates the QST paid (to validate with receipt), or deemed paid for allowances, on the expense.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.QuebecSalesTaxAct">
+<summary>
+  Looks up a localized string similar to Quebec sales tax act.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.RITC">
+<summary>
+  Looks up a localized string similar to RITC.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.RITC_Instructions">
+<summary>
+  Looks up a localized string similar to RITC is the Recapture of input tax credit under the.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.SampleReportTitle">
+<summary>
+  Looks up a localized string similar to Sample Report from Advataxes.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.TaxCalculator_Assumptions">
+<summary>
+  Looks up a localized string similar to The tax calculator on travel expenses is done under the following assumptions; the person is a GST/HST and a QST registrant. The ratios of commercial activities of the person are 100%. The large business calculation automates the calculation of the recapture of input tax credits (RITC) in Ontario and PEI and restricted input tax refund in Quebec on meals and allowances under paragraph 236(1) of the &lt;i&gt;Excise Tax Act&lt;/i&gt; and section 457.1 of the Quebec Sales Tax Act and gas for cars as motive fuel other than [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.TaxCalculator_Presentation">
+<summary>
+  Looks up a localized string similar to Advataxes is an employee expense software that automates the GST ⁄ HST &amp; QST paid, GST ⁄ HST &amp; QST recoverable and the recapture of input tax credits in Ontario and PEI, in the same manor as the tax calculator. Selecting an expense type, a jurisdiction and a date is the preferred system instead of the traditional one requiring all employees to select from a list of tax codes. This is a more efficient responsibility allocation structure. In the example below, you have a travel expense report for an employee  [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.Total">
+<summary>
+  Looks up a localized string similar to Total.
+</summary>
+</member>
+<member name="P:AdvataxesResources.My.Resources.TaxCalculator.Total_Instructions">
+<summary>
+  Looks up a localized string similar to Total expense amount submitted by the employee.
+</summary>
+</member>
+</members>
+</doc>

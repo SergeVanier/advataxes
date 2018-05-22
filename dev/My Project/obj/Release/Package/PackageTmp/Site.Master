@@ -1,0 +1,242 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site.master.vb" Inherits="Advataxes.Site" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+	<title>Advataxes</title>
+	<link rel="shortcut icon" href="/web-images/favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="/css/style3.css?v2" />
+    <link type="text/css" rel="stylesheet" href="/css/sunny/jquery-ui-1.8.23.custom.css" /> 
+    <link type="text/css" rel="stylesheet" href="/css/guidelines.css">
+    <script type="text/javascript" src="/js/AdvataxesMain.js"></script>
+    <script src="/js/jquery-1.8.0.min.js"></script>
+    <script src="/js/jquery-ui-1.8.24.min.js"></script>
+    <script type="text/javascript" src="/js/underscore.min.js"> </script>
+    <script type="text/javascript" src="/js/backbone.js"> </script>
+    <script type="text/javascript" src="/js/tourist.min.js"> </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server"> </asp:ContentPlaceHolder>
+
+	<!--[if lte IE 7]><link type="text/css" rel="stylesheet" href="/css/ie.css" charset="utf-8" /><![endif]-->
+
+	<style type="text/css">
+    A {color: #cd1e1e; text-decoration: none; }
+	A:hover { text-decoration: underline; color: #cd1e1e; }
+	.style1 { width: 6%; }
+	#hideAll { position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; background-color: white; z-index: 99; }
+	.ui-menu { width: 150px; }
+	#menu { position: absolute; display: none; font-size: 0.8em; z-index: 99; }
+	</style>
+
+	<script type="text/javascript">
+	$(document).ready(function () {
+		$(function () {
+			$("#menu").menu();
+
+			$("#div-context").mousedown("contextmenu", function (event) {
+				var ileft;
+				var ipercent = $("#div-context").position().left / document.body.clientWidth;
+
+				ileft = document.body.clientWidth; //$("#div-context").position().left + (1000 * ($("#div-context").position().left / document.body.clientWidth));
+
+				if (document.body.clientWidth < 1200)
+					ileft -= 200;
+				else if (document.body.clientWidth < 1300)
+					ileft -= 250;
+				else if (document.body.clientWidth < 1400)
+					ileft -= 300;
+				else if (document.body.clientWidth < 1500)
+					ileft -= 400;
+				else if (document.body.clientWidth < 1600)
+					ileft -= 450;
+				else if (document.body.clientWidth < 1800)
+					ileft -= 550;
+				else if (document.body.clientWidth < 2200)
+					ileft -= 650;
+				else if (document.body.clientWidth < 2400)
+					ileft -= 750;
+
+				$("#menu").css('top', $("#div-context").position().top + 20);
+				$("#menu").css('left', ileft);
+				$("#menu").fadeIn(800);
+			});
+
+			$("#menu").mouseleave(function () {
+				$("#menu").fadeOut();
+			});
+		});
+
+		$("#myProfile").click(function () {
+			window.location = "/account/MyProfile.aspx"
+		});
+
+		$("#contactUs").click(function () {
+			window.location = "/account/contactus.aspx"
+		});
+
+		$("#billing").click(function () {
+			window.location = "/admin/billing.aspx"
+		});
+
+		$('#help').on('click', function () {
+			try {
+				guidelines(_guidelinesSteps);
+			} catch (err) {
+				alert(err)
+			}
+		});
+
+	});
+</script>
+
+
+
+</head>
+<body onload="javascript:unloadAllJS();" style=" background-image:url('../images/bg2.png'); background-position:top; background-repeat:repeat-x;">
+
+    <%If Not IsNothing(Session("emp")) Then%>
+        <ul id="menu">
+            <li id="myProfile"><a href="#"><asp:Label ID="lblMyProfile" runat="server" Text="My Profile" /></a></li>
+            <li id="billing" <%=iif(session("emp").isadmin,"","style='display:none;'") %>><a href="#"><asp:Label ID="lblBilling" runat="server" Text="Billing" /></a></li>
+            <li id="contactUs"><a href="#"><asp:Label ID="lblContactUs" runat="server" Text="Contact Us" /></a></li>
+            <li id="help" style="display:none;"><a href="#">Help</a></li>
+        </ul>
+    <%End If%>
+
+    <div style="display: none" id="hideAll">&nbsp;</div>
+    <script type="text/javascript">
+        document.getElementById("hideAll").style.display = "block"; 
+     </script>  
+
+    <form id="form1" runat="server"  defaultfocus="Login2_UserName">
+    
+	<div id="header" class="2" style="max-width:2000px;" >
+    
+		<table width="100%" border=0>
+            <tr>
+                <td width="40%" align="left">
+                    <img src="../images/logo-advataxes-en-indirect-280x73.png" alt="LOGO" />
+                </td>
+
+                <td valign="top" style=" text-align:right;">
+                    <asp:Label ID="lblCompany" runat="server" Text="" style="font-weight:bold;"></asp:Label>
+                <br />
+                <asp:Label ID="lbl283" runat="server" CssClass="labelText"></asp:Label>
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                        <AnonymousTemplate>
+                            
+                            </span> <a href="~/Login.aspx" ID="HeadLoginStatus" runat="server"><%Response.Write(hdnLoginText.Value)%></a> 
+                        </AnonymousTemplate>
+                        <LoggedInTemplate><asp:LoginName ID="HeadLoginName" runat="server" CssClass="labelText"  />
+                             <br />
+                             <%If Session("language") = "English" Then%>
+                              <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="loggedout.aspx" />
+                             <%else %>
+                                <asp:LoginStatus ID="HeadLoginStatus1" runat="server" LogoutAction="Redirect" LogoutText="Se déconnecter" LogoutPageUrl="loggedout.aspx" />
+                             <%End If%>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right" valign="top">
+                        <asp:Label ID="lblLastLoggedIn" runat="server" CssClass="labelText" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                        <% If Not IsNothing(Session("emp")) Then%>                                
+                                <a href="#" id="div-context"><img id="imgGear" src="../images/gear.png" /></a>                               
+                        <%End If%>                                        
+                </td>
+            </tr>
+        </table>
+
+	</div> <!-- /#header -->
+	
+    <div id="contents" style="min-height:450px;" >
+    
+		<div id="background" class="background" style="margin:auto;max-width:2000px">
+			<div style=" vertical-align:middle;">
+
+                <table width="100%">
+                <tr><td>
+                <%If Not IsNothing(Session("emp")) Then%>
+                    
+                        <asp:Menu ID="MainMenu" runat="server" BackColor="#ffffff" Height="30px"
+                            DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.95em" Font-Bold="false"  
+                            ForeColor="#000000" StaticSubMenuIndent="10px" Orientation="Horizontal" 
+                            DataSourceID="SiteMapDataSource1" MaximumDynamicDisplayLevels="0" 
+                             StaticBottomSeparatorImageUrl="~/images/separator.png" 
+                            StaticDisplayLevels="2" BorderColor="DarkRed" BorderStyle="none" BorderWidth="1">
+                            <DynamicHoverStyle BackColor="#cd1e1e" ForeColor="White" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicMenuStyle BackColor="#FFFBD6" />
+                            <DynamicSelectedStyle BackColor="#68a6cd" />
+                            <StaticHoverStyle ForeColor="#cd1e1e" />
+                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" font-bold="true" forecolor="#8c8c8a"/>
+                            <StaticSelectedStyle BackColor="#ffffff" ForeColor="#cd1e1e" Font-Bold="true" />
+                        </asp:Menu>
+
+                        </td>
+                        <%If Session("emp").organization.showwelcome Then%>
+                                <td align="right"><a href="../Account/welcome.aspx"><asp:Label ID="lbl162" runat="server" Text="Label"></asp:Label></a></td>
+                        <%End If%>
+
+                        </tr>
+                        <tr><td></td></tr>
+
+                        <tr><td colspan="10" style=" background:url(../images/redline.png); background-repeat:repeat-x;">
+
+                <%End If%>
+                </td>
+                
+                
+                </tr>
+                
+                </table>
+
+                <% If Session("CompleteSettings") <> "" And Not IsNothing(Session("emp")) Then%>
+ 	                <div class="ui-widget">
+		                <div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;"> 
+			                <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+			                    <asp:Label runat="server" ><%=Session("CompleteSettings")%></asp:Label></p>
+		                </div>
+	                </div>
+                <% End If%>
+
+                 <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            </div> 
+
+            <table border="0" style="height: 325px; background-image:url(../images/bg2.jpg);" width="95%">
+                <tr>
+                    <td valign="top">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server" >
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+            <br /><br />
+		</div>
+
+	</div> <!-- /#contents -->
+    
+    <div id="footer">
+        
+        <%If Session("language") = "English" Then%>
+		    <span class="footnote"><table width="100%"><tr><td align="left">Copyright &copy; 2012-<%=Now.Year%>. Ad Valorem Inc. | All rights reserved</td><td align="right"><a href="javascript:window.location = 'https://www.advataxes.ca/en/privacy-policy.aspx';">Privacy Policy</a> | <a href="javascript:window.location = 'https://www.advataxes.ca/en/terms-of-use.aspx';">Terms of use</a></td></tr></table> </span>
+	    <%Else%>
+            <span class="footnote"><table width="100%"><tr><td align="left">Copyright &copy; 2012-<%=Now.Year%>. Ad Valorem Inc. | Tous droits réservés</td><td align="right"><a href="javascript:window.location = 'https://www.advataxes.ca/fr/politique-de-confidentialite.aspx';">Politique de confidentialité</a> | <a href="javascript:window.location = 'https://www.advataxes.ca/fr/conditions-utilisation.aspx';">Conditions d'utilisation</a></td></tr></table> </span>
+        <%End If%>
+    </div> <!-- /#footer -->
+    
+    <asp:HiddenField ID="hdnLogoutText" runat="server" />
+    <asp:HiddenField ID="hdnLoginText" runat="server" />
+
+
+</form> 
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById("hideAll").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<license version="1.1">
+  <Customer>
+    <name>evaluation license</name>
+  </Customer>
+  <products>
+    <Product>
+      <name>aspnetemail</name>
+      <version>3</version>
+      <licensetype>evaluation</licensetype>
+      <expires>2013-05-03</expires>
+    </Product>
+  </products>
+  <LicenseInformation>
+    <Version>1.1</Version>
+    <H1>0</H1>
+    <H2>J02l5CJ0we73x+9ERyUhuw==</H2>
+  </LicenseInformation>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>CwjUJJ9uIH/oI2CsMJLHD99LCqE=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>a+BSY9G9YcOIib+saXV09RLBAyPmqfDWCDHWLUVvSe2u57snhkq4NjTR5H+KUKe8OvsAHMageL2oB67vLP9QvLdjiRDL6F6zoO6MBe9awn88MUs/Z6QKhLxBI9j7NuQ35L1BLLNQKMlTdcKwXfKMV4H992/I4CLDecutY7Lm5m0=</SignatureValue>
+  </Signature>
+</license>

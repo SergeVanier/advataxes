@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="LocalSqlServer-Web.config Connection String" description="LocalSqlServer Connection String used in web.config by the application to access the database." defaultValue="Data Source=A-LAHLOU\SQLEXPRESS; Initial Catalog=aspnetdb;user id=sa;password=Test123_;Integrated Security=false;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\alahlou\.ADVALOREM\\Desktop\\code\ commit\\Advataxes\\dev\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LocalSqlServer']/@connectionString" />
+  </parameter>
+  <parameter name="aspnetdbConnStr-Web.config Connection String" description="aspnetdbConnStr Connection String used in web.config by the application to access the database." defaultValue="Data Source=A-LAHLOU\SQLEXPRESS; Initial Catalog=aspnetdb;user id=sa;password=Test123_;Integrated Security=false;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\alahlou\.ADVALOREM\\Desktop\\code\ commit\\Advataxes\\dev\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='aspnetdbConnStr']/@connectionString" />
+  </parameter>
+  <parameter name="dbadvaloremConnStr-Web.config Connection String" description="dbadvaloremConnStr Connection String used in web.config by the application to access the database." defaultValue="Data Source=A-LAHLOU\SQLEXPRESS; Initial Catalog=dbadvalorem;user id=sa;password=Test123_;Integrated Security=false;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\alahlou\.ADVALOREM\\Desktop\\code\ commit\\Advataxes\\dev\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dbadvaloremConnStr']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="www.advataxes.ca" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\alahlou\.ADVALOREM\\Desktop\\code\ commit\\Advataxes\\dev\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\alahlou\.ADVALOREM\\Desktop\\code\ commit\\Advataxes\\dev\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="aspnetdbConnStr-Web.config Connection String" description="" value="Data Source=A-LAHLOU\SQLEXPRESS; Initial Catalog=aspnetdb;user id=sa;password=Test123_;Integrated Security=false;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\alahlou\.ADVALOREM\\Desktop\\code\ commit\\Advataxes\\dev\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='aspnetdbConnStr']/@connectionString" />
+  </parameter>
+  <parameter name="dbadvaloremConnStr-Web.config Connection String" description="" value="Data Source=A-LAHLOU\SQLEXPRESS; Initial Catalog=dbadvalorem;user id=sa;password=Test123_;Integrated Security=false;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\alahlou\.ADVALOREM\\Desktop\\code\ commit\\Advataxes\\dev\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dbadvaloremConnStr']/@connectionString" />
+  </parameter>
+  <parameter name="LocalSqlServer-Web.config Connection String" description="LocalSqlServer Connection String used in web.config by the application to access the database." value="Data Source=A-LAHLOU\SQLEXPRESS; Initial Catalog=aspnetdb;user id=sa;password=Test123_;Integrated Security=false;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\alahlou\.ADVALOREM\\Desktop\\code\ commit\\Advataxes\\dev\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LocalSqlServer']/@connectionString" />
+  </parameter>
+</parameters>

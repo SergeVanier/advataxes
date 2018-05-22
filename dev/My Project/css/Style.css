@@ -1,0 +1,35 @@
+﻿p.title{background:url(../images/titlebar.png);}
+.mGrid{width:100%;background-color:#fff;margin:5px 0 10px 0;border:solid 1px #525252;border-collapse:collapse;}
+.mGrid td{padding:2px;border:solid 1px #c1c1c1;color:#717171;}
+.mGrid th{padding:4px 2px;color:#fff;background:#424242 url(../images/grd_head.png) repeat-x top;border-left:solid 1px #525252;font-size:0.9em;}
+.mGrid a{color:black;}
+.mGrid .alt{background:#fcfcfc url(../images/grd_alt.png) repeat-x top;}
+.mGrid .sel{background:white url(../images/grd_sel4.png) repeat-x top;}
+.mGrid .pgr{background:#424242 url(../images/grd_pgr.png) repeat-x top;}
+.mGrid .pgr table{margin:5px 0;}
+.mGrid .pgr td{border-width:0;padding:0 6px;border-left:solid 1px #666;font-weight:bold;color:red;line-height:12px;}
+.mGrid .pgr a{color:black;text-decoration:none;}
+.mGrid .pgr a:hover{color:#000;text-decoration:none;}
+.modalPopup{background-color:White;border-width:3px;border-style:solid;border-color:Gray;padding:3px;width:250px;background-image:url(../images/bg.png);background-size:150%;}
+.modalBackground{background-color:Gray;filter:alpha(opacity=70);opacity:0.7;}
+.page{width:1194px;background-color:#fff;margin:20px auto 0px auto;border:1px solid #496077;background-image:url('images/bg.png')}
+#header h1 a{text-decoration:none;}
+a:link{color:#FFFFCC;}
+.style1{width:177px;height:815px;}
+.style3{height:815px}
+#il_fi{height:86px;width:1194px;margin-left:0px;}
+.style4{width:43px;}
+.style1{color:#FFFFFF;}
+.cmdUpload .footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+.abc {
+    width: 300px;
+    height: 400px;
+}

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Amount" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="AmountType_BeforeTaxes" xml:space="preserve">
+    <value>Avant TVQ/TPS/TVH</value>
+  </data>
+  <data name="AmountType_TaxIncluded" xml:space="preserve">
+    <value>Taxes incluses</value>
+  </data>
+  <data name="Amount_Instructions" xml:space="preserve">
+    <value>Saisissez le montant de la dépense taxes incluses ou avant TPS/TVH/TVQ (les allocations sont calculées comme étant un montant taxes incluses)</value>
+  </data>
+  <data name="BusinessSize" xml:space="preserve">
+    <value>Taille de l'entreprise</value>
+  </data>
+  <data name="BusinessSize_Instructions" xml:space="preserve">
+    <value>Indiquer si votre entreprise est une petite/moyenne ou une grande entreprise au fin de taxes TPS/TVH/TVQ</value>
+  </data>
+  <data name="BusinessSize_Large" xml:space="preserve">
+    <value>Grande</value>
+  </data>
+  <data name="BusinessSize_SmallMedium" xml:space="preserve">
+    <value>Petite/moyenne</value>
+  </data>
+  <data name="ClickImageToEnlarge" xml:space="preserve">
+    <value>Cliquez sur l'image pour aggrandir</value>
+  </data>
+  <data name="Date_Instructions" xml:space="preserve">
+    <value>Les calculs utilisent le taux canadien de taxe indirecte</value>
+  </data>
+  <data name="ExciseTaxAct" xml:space="preserve">
+    <value>Loi sur la taxe d'accise</value>
+  </data>
+  <data name="ExpenseType" xml:space="preserve">
+    <value>Type de dépense</value>
+  </data>
+  <data name="ExpenseType_Allowance" xml:space="preserve">
+    <value>Allocation</value>
+  </data>
+  <data name="ExpenseType_GasForCars" xml:space="preserve">
+    <value>Carburant pour automobile</value>
+  </data>
+  <data name="ExpenseType_Instructions" xml:space="preserve">
+    <value>Sélectionner le type de dépenses encourues par l'employé dans le cadre d'activités commerciales</value>
+  </data>
+  <data name="ExpenseType_Lodging" xml:space="preserve">
+    <value>Logement</value>
+  </data>
+  <data name="GST_HST_Paid" xml:space="preserve">
+    <value>TPS/TVH payée</value>
+  </data>
+  <data name="GST_HST_Paid_Instructions" xml:space="preserve">
+    <value>Calcul la TPS/TVH payée (à valider avec un reçu), ou reconnue comme étant payée pour les allocations, sur la dépense</value>
+  </data>
+  <data name="ITC" xml:space="preserve">
+    <value>CTI</value>
+  </data>
+  <data name="ITC_Instructions" xml:space="preserve">
+    <value>CTI est le crédit de taxes sur les intrants en vertu de la</value>
+  </data>
+  <data name="ITR" xml:space="preserve">
+    <value>RTI</value>
+  </data>
+  <data name="ITR_Instructions" xml:space="preserve">
+    <value>RTI est le retour de taxes sur les intrants en vertu de la</value>
+  </data>
+  <data name="Jurisdiction" xml:space="preserve">
+    <value>Jurisdiction</value>
+  </data>
+  <data name="Jurisdiction_Instructions" xml:space="preserve">
+    <value>Choisissez la province ou le territoire canadien où a eu lieu la dépense.</value>
+  </data>
+  <data name="Net" xml:space="preserve">
+    <value>Net</value>
+  </data>
+  <data name="Net_Instructions" xml:space="preserve">
+    <value>Réfère au montant net de la dépense qui corresponda au  Total - CTI - RTI + RCTI</value>
+  </data>
+  <data name="PageMainTitle" xml:space="preserve">
+    <value>Calcul le montant net recouvrable de TPS / TVH et TVQ pour les petites / moyennes et les grandes entreprises sur les dépenses de voyage encourues par les employés</value>
+  </data>
+  <data name="QST_Paid" xml:space="preserve">
+    <value>TVQ Payée</value>
+  </data>
+  <data name="QST_Paid_Instructions" xml:space="preserve">
+    <value>Calcul la TVQ payée (à valider avec un reçu), ou reconnue comme étant payée pour les allocations, sur la dépense</value>
+  </data>
+  <data name="QuebecSalesTaxAct" xml:space="preserve">
+    <value>Loi sur la taxe de vente du Québec</value>
+  </data>
+  <data name="RITC" xml:space="preserve">
+    <value>RCTI</value>
+  </data>
+  <data name="RITC_Instructions" xml:space="preserve">
+    <value>RCTI est la récupération de crédit de taxes sur les intrants en vertu de la</value>
+  </data>
+  <data name="SampleReportTitle" xml:space="preserve">
+    <value>Exemple de rapport d'Advataxes</value>
+  </data>
+  <data name="TaxCalculator_Assumptions" xml:space="preserve">
+    <value>Le calculateur des taxes sur les dépenses de voyage s’opère sous les assomptions suivantes;  la personne est un inscrit aux fins de la TPS/TVH et de la TVQ. Les ratios d’activités commerciales de la personne sont de 100%.  Le calcul pour les grandes entreprises automatise le calcul de la récupération temporaire sur les crédits de taxes sur intrants (RCTI) en Ontario et à l’IPE et les remboursements de taxes sur les intrants restreints au Québec sur les aliments boissons et divertissements selon le paragraphe 236(1) de la &lt;i&gt;Loi sur la taxe d’accise&lt;/i&gt; et de l’article 457.1 de la Loi sur la taxe de vente du Québec et du « carburant autos » à titre de carburant moteur , sauf le diesel, pour être utilisé dans un véhicule de moins de 3000KG immatriculé pour circuler sur les chemins publics. Le calculateur de taxes applique la méthode exacte pour calculer les crédits de taxes sur les intrants (CTI) et les remboursements de taxes sur les intrants (RTI).  Le calculateur de taxes n’est pas conçu pour les personnes utilisant la méthode de comptabilité abrégé ou toute autre méthode ne requérant pas le calcul sur achats des CTI et des RTI. Le calculateur de taxes n’intègre pas les dispositions de la &lt;i&gt;Loi sur les indiens&lt;/i&gt; et de la &lt;i&gt;Loi sur la taxes sur les produits et services des premières nations&lt;/i&gt;. Le calculateur de taxes ne doit pas être un substitut a obtenir un consultation en taxes indirectes. Il est recommandé de consulter pour comprendre les concepts que le calculateur de taxes automatise.</value>
+  </data>
+  <data name="TaxCalculator_Presentation" xml:space="preserve">
+    <value>Le logiciel Advataxes sur les comptes de dépense des employés automatise la TPS ⁄ TVH et la TVQ payée, la TPS ⁄ TVH et la TVQ recouvrable, et la récupération sur les crédits de taxes sur les intrants en Ontario et à l’IPE essentiellement de la même manière que le calculateur de taxes. La sélection par l’ensemble des employés du type de dépense, de la juridiction et de la date a été préférée à l’approche traditionnelle de la sélection par l’ensemble des employés des codes de taxes. Ainsi l’allocation des responsabilités est plus adéquate. Dans cet exemple d’un rapport de dépenses de voyage d’un employé d’une grande entreprise, l’employé doit choisir un numéro de projet qui est lié à un segment comptable, et identifier qu’elle dépense a été directement payée par l’employeur à la compagnie émettrice de la carte de crédit. Le rapport fournit les taxes recouvrables selon la méthode exacte.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Total_Instructions" xml:space="preserve">
+    <value>Montant total de la dépense soumise par l'employé</value>
+  </data>
+</root>

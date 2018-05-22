@@ -1,0 +1,45 @@
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\bin\Advataxes.dll.config
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\bin\Advataxes.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\bin\Advataxes.pdb
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\bin\Advataxes.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\bin\AdvataxesResources.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\bin\AdvataxesResources.pdb
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\bin\AdvataxesResources.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\bin\fr\AdvataxesResources.resources.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\obj\Debug\Advataxes.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\obj\Debug\Advataxes.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\obj\Debug\Advataxes.pdb
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\obj\Debug\Advataxes.vbprojResolveAssemblyReference.cache
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\bin\System.Web.Entity.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\bin\Spire.License.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code\avsource\branches\dev\bin\Spire.DataExport.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\bin\Advataxes.dll.config
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\bin\Advataxes.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\bin\Advataxes.pdb
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\bin\Advataxes.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\bin\AdvataxesResources.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\bin\System.Web.Entity.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\bin\Spire.License.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\bin\AdvataxesResources.pdb
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\bin\AdvataxesResources.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\bin\Spire.DataExport.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\bin\fr\AdvataxesResources.resources.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\obj\Debug\Advataxes.vbprojResolveAssemblyReference.cache
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\obj\Debug\Advataxes.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\obj\Debug\Advataxes.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code commit\Advataxes\dev\obj\Debug\Advataxes.pdb
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\bin\Advataxes.dll.config
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\bin\Advataxes.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\bin\Advataxes.pdb
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\bin\Advataxes.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\bin\AdvataxesResources.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\bin\System.Web.Entity.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\bin\AdvataxesResources.pdb
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\bin\AdvataxesResources.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\bin\fr\AdvataxesResources.resources.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\obj\Debug\Advataxes.vbprojResolveAssemblyReference.cache
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\obj\Debug\Advataxes.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\obj\Debug\Advataxes.xml
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\obj\Debug\Advataxes.pdb
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\bin\Spire.License.dll
+C:\Users\alahlou.ADVALOREM\Desktop\code-prod\dev\bin\Spire.DataExport.xml
